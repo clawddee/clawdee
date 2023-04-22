@@ -1,0 +1,74 @@
+body {
+    background-color:lightgray;
+}
+
+p {
+    color:darkgreen;
+}
+
+nav {
+    float: left;
+    text-align:center;
+}
+
+nav ul li{
+    color:darkgreen;
+    text-decoration: none;
+    margin:9px;
+}
+
+nav{
+    font-size:20px;
+}
+
+a:link, a:visted {
+    color:darkgreen;
+    text-decoration:underline;
+    cursor:auto;
+}
+
+a {
+    color:darkgreen;
+}
+
+
+section {
+    text-align: center;
+    width:55%
+
+}
+
+section{
+    border:1px solid;
+    border-color:lightgray;
+    background-color: white;
+    position:absolute;
+    top: 30px;
+    bottom:30px;
+    right:100px;
+    left:200px;
+
+}
+
+em {
+    font-size: 20px;
+}
+
+body {
+    font-family: Baskerville, Georgia, 'Times New Roman';
+}
+
+img {
+    position: fixed;
+    bottom:0;
+    right:0;
+
+}
+
+footer {
+    text-align: center;
+  position:relative;
+  right:100px;
+  top:585px;
+  bottom:300px;
+}

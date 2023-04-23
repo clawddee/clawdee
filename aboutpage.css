@@ -23,7 +23,7 @@ nav{
 
 a:link, a:visted {
     color:darkgreen;
-    text-decoration:underline;
+    text-decoration:none;
     cursor:auto;
 }
 
@@ -50,8 +50,8 @@ section{
 
 }
 
-em {
-    font-size: 20px;
+h1 {
+    color:darkgreen
 }
 
 body {

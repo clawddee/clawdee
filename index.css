@@ -59,7 +59,7 @@ body {
     font-family: Baskerville, Georgia, 'Times New Roman';
 }
 
-img {
+.tulip img {
     position: fixed;
     bottom:0;
     right:0;

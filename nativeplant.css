@@ -13,8 +13,12 @@ nav {
 
 nav ul li{
     color:darkgreen;
-    text-decoration: none;
+    list-style-type: none;
     margin:9px;
+}
+h1 {
+    color:darkgreen;
+
 }
 
 nav{
@@ -23,7 +27,7 @@ nav{
 
 a:link, a:visted {
     color:darkgreen;
-    text-decoration:underline;
+    text-decoration: none;
     cursor:auto;
 }
 
@@ -47,10 +51,9 @@ section{
     bottom:30px;
     right:100px;
     left:200px;
-
 }
 
-h1 {
+h3 {
     color:darkgreen;
 }
 
@@ -62,7 +65,6 @@ body {
     position: fixed;
     bottom:0;
     right:0;
-
 }
 
 footer {

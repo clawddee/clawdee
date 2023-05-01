@@ -21,6 +21,8 @@ nav{
     font-size:20px;
 }
 
+
+
 a:link, a:visted {
     color:darkgreen;
     text-decoration:underline;
@@ -35,6 +37,7 @@ a {
 section {
     text-align: center;
     width:55%
+    
 
 }
 
@@ -42,13 +45,15 @@ section{
     border:1px solid;
     border-color:lightgray;
     background-color: white;
-    position:absolute;
+    position:relative;
     top: 30px;
     bottom:30px;
     right:100px;
     left:200px;
-
+    overflow: auto;
 }
+ 
+
 
 h1 {
     color:darkgreen;

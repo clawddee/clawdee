@@ -13,7 +13,7 @@ nav {
 
 nav ul li{
     color:darkgreen;
-    text-decoration: none;
+    list-style-type:none;
     margin:9px;
 }
 

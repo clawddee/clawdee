@@ -16,12 +16,14 @@ nav ul li{
     list-style-type: none;
     margin:9px;
 }
+
 h1 {
     color:darkgreen;
-
 }
 
-
+em {
+color:darkgreen;
+}
 
 nav{
     font-size:20px;

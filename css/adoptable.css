@@ -23,7 +23,7 @@ nav{
 
 a:link, a:visited {
     color:darkgreen;
-    text-decoration:underline;
+    text-decoration:none;
     cursor:auto;
 }
 

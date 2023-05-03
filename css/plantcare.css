@@ -25,15 +25,12 @@ nav{
     font-size:20px;
 }
 
-a:link, a:visted {
+a:link, a:visited {
     color:darkgreen;
     text-decoration: none;
     cursor:auto;
 }
 
-a {
-    color:darkgreen;
-}
 
 
 section {

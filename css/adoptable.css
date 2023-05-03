@@ -21,7 +21,7 @@ nav{
     font-size:20px;
 }
 
-a:link, a:visted {
+a:link, a:visited {
     color:darkgreen;
     text-decoration:underline;
     cursor:auto;

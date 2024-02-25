@@ -17,6 +17,12 @@ h1 {
 
 }
 
+h2{
+font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
+    color:#014356;
+    font-size: 45px;
+}
+
 nav{
     font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
     color:#7ecde4;

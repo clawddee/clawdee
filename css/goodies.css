@@ -1,0 +1,60 @@
+body {
+    background-color:#fafaf5;
+}
+
+p {
+    color:#014356;
+
+}
+
+
+
+h1 {
+    font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
+    color:#014356;
+    font-size: 50px;
+  
+
+}
+
+nav{
+    font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
+    color:#7ecde4;
+    font-size:40px;
+    text-align: center;
+ 
+}
+
+
+section {
+    text-align: center;
+    font-size: 25px;
+ 
+}
+
+
+
+body {
+    text-align: center;
+    font-family: Baskerville, Georgia, 'Times New Roman';
+   
+}
+
+
+
+footer {
+    text-align: center;
+    position:relative;
+    right:60px;
+    top:905px;
+    bottom:300px;
+    color:#014356;
+    font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.header img {
+    position: fixed;
+    top: 21px;
+    left: 50px;
+}

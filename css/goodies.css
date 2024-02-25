@@ -14,7 +14,14 @@ h1 {
     color:#fafaf5;
     font-size: 50px;
   
+{
+    h2{
+font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
+    color:#014356;
+    font-size: 45px;
 
+}
+    
 }
 
 nav{

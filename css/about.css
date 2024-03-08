@@ -7,30 +7,61 @@ p {
 
 }
 
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
 
+}
 
 h1 {
     font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
     color:#fafaf5;
     font-size: 50px;
-  
-
+    margin-right: 10px;
+    
 }
 
-h2{
-font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
-    color:#014356;
-    font-size: 45px;
+.header img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+    
+
+    h2{
+        font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
+            color:#014356;
+            font-size: 45px;
+        
 }
 
-nav{
+.navbar{
     font-family: Luminari, Georgia, 'Times New Roman', Times, serif;
     color:#7ecde4;
     font-size:40px;
     text-align: center;
  
 }
+.navbar{
+    background-color: #014356;
+    overflow: hidden;
+}
 
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px 12px;
+    width: 100%;
+
+}
+
+.navbar a{
+    color:#7ecde4;
+    text-decoration: none;
+}
 
 section {
     text-align: center;
@@ -43,24 +74,33 @@ section {
 body {
     text-align: center;
     font-family: Baskerville, Georgia, 'Times New Roman';
-   
-}
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
 
 
-
-footer {
+.footer-navbar {
+    background-color:#7ecde4;
+    padding: 5px;
     text-align: center;
-    position:relative;
-    right:60px;
-    top:905px;
-    bottom:300px;
+    margin-top: auto;
     color:#014356;
     font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    width: 100%;
 }
 
-.header img {
-    position: fixed;
-    top: 21px;
-    left: 50px;
+.footer-navbar a {
+    color:#014356;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.footer-navbar a:hover {
+    text-decoration: underline;
 }

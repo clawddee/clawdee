@@ -72,6 +72,12 @@ h2 {
 font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif
 }
 
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
 .footer-navbar {
     background-color: #7ecde4;
     padding: 5px;

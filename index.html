@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link href="css/index.css" rel="stylesheet" type="text/css"/>
-	</head>
-
+<head>
+    <meta charset="UTF-8">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
+    <header class="header">
+        <img src="images/header.png" alt="a small banner that says clawdee with 4 8bit tulips alternating between orange and yellow">
+    </header>
 
-<header class="header">
-	<h1> clawdee</h1>
-	<img src="Images/header.png" alt="a small banner that says clawdee with 4 8bit 
-	tulips alternating between orange and yellow">
-</header>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="goodies.html">Goodies</a></li>
+        </ul>
+    </nav>
 
+    <section>
+        <h2>home</h2> 
+        <p>welcome to doom</p>
+		</section>
 
+    <footer class="footer-navbar">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="goodies.html">Goodies</a>
+    </footer>
 
-    <!---Nav will stay in the center-->
-<div class="navbar">
-	<a href="index.html"> Home</a>
-	<a href="work.html"> Work</a>
-	<a href="about.html">About</a>
-	<a href="contact.html">Contact</a>
-	<a href="goodies.html">Goodies</a>
-</div>
-
-	
-		<section>
-			<h2>home</h2> 
-			<p>welcome to doom </p>
-
-            <!---Contact button will be added after intro, and images will follow after the button.-->
-	</section>
-	 
-
-			
-<footer class="footer-navbar">
-	<a href="index.html"> Home</a>
-	<a href="work.html"> Work</a>
-	<a href="about.html">About</a>
-	<a href="contact.html">Contact</a>
-	<a href="goodies.html">Goodies</a>
-</footer>
-	
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        }
+    </script>
 </body>
 </html>

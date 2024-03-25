@@ -72,6 +72,22 @@ h2 {
 font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif
 }
 
+.image-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.image-container img {
+    margin: 5px; 
+    width: calc(33.33% - 10px); 
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container img {
+        width: calc(50% - 10px); 
+    }
+}
 .responsive {
   width: 100%;
   max-width: 400px;

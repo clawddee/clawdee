@@ -1,5 +1,5 @@
 body {
-    background-color: #ffc573;
+    background-color: #FFF99B;
     margin: 0;
     padding: 0;
     font-family: Baskerville, Georgia, 'Times New Roman';
@@ -16,7 +16,7 @@ body {
 }
 
 .header h1 {
-    color: #fafaf5;
+    color: #CEAF03;
     font-size: 30px;
 }
 
@@ -25,7 +25,7 @@ body {
     cursor: pointer;
     font-size: 30px;
     line-height: 1;
-    color: #fafaf5;
+    color: #014356;
 }
 
 .menu-icon:hover {
@@ -79,7 +79,7 @@ text-align {
 }
 
 .footer-navbar {
-    background-color: #7ecde4;
+    background-color: #92E0F6;
     padding: 5px;
     text-align: center;
     margin-top: auto;

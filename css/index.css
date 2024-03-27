@@ -8,53 +8,40 @@ body {
     min-height: 100vh;
 }
 
-.header {
+  /* Navigation styles */
+  .menu {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: flex-start;
+    align-items: left;
 }
 
-
-.menu-icon {
-    display: block;
-    cursor: pointer;
-    font-size: 30px;
-    line-height: 1;
+.menu a {
+    text-decoration: none;
     color: #014356;
+    padding: 8px 12px;
+    margin:0 5px;
+    
 }
 
-.menu-icon:hover {
-    text-decoration: underline;
-}
-
-.menu {
+/* Hamburger icon */
+.menu-icon {
     display: none;
 }
 
-.menu.show {
-    display: block;
-}
+/* Hamburger Menu Mobile */
+@media screen and (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+        display: none;
+    }
 
-.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
+    .menu.show {
+        display: flex;
+    }
 
-.menu ul li {
-    margin: 10px 0;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #014356;
-    font-size: 20px;
-}
-
-.menu ul li a:hover {
-    text-decoration: underline;
+    .menu-icon {
+        display: block;
+    }
 }
 
 section {
@@ -74,15 +61,40 @@ text-align {
   height: auto;
 }
 
+/*Tulips above Footer*/
+.bottom-image {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+}
+
+/* Small Screen Media Query*/
+@media screen and (max-width: 767px) {
+    .bottom-image {
+        width: 80%; /* Adjust the width of the image for smaller devices */
+    }
+}
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
 .footer-navbar {
     background-color: #92E0F6;
     padding: 20px;
     text-align: center;
     margin-top: auto;
     color: #014356;
-    font-family: Baskerville, Georgia, 'Times New Roman', Times, serif
+    font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    width: 100%;
+    width: 100%; /* Make the navbar take the full width of the viewport */
+    overflow-x: hidden; /* Hide horizontal overflow */
 }
 
 .footer-navbar a {
@@ -95,3 +107,7 @@ text-align {
 .footer-navbar a:hover {
     text-decoration: underline;
 }
+
+
+
+  

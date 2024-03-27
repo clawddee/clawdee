@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clawdee</title>
 </head>
+
 <body>
-    <header class="header">
-        <img src="Images/header.png" alt="a small banner that says clawdee with 4 8bit tulips alternating between orange and yellow">
-    </header>
 
+    <!-- Hamburger menu icon -->
     <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    
+    <!-- Navigation menu -->
     <nav class="menu" id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="goodies.html">Goodies</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <h2>About</h2> 
-        <p> My name is Claudia, I am new to web designing and I enjoy creating art. I currently reside with my husband and 2 cats who are so very helpful with school work and other activities.  </p>
-		</section>
-
-    <footer class="footer-navbar">
         <a href="index.html">Home</a>
         <a href="work.html">Work</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="goodies.html">Goodies</a>
+    </nav>
+
+    <section>
+        <h3>Hello and welcome to my portfolio! Please take your time and look around.</h3>
+    </section>
+
+
+       <div class="bottom-image"> <img src="images/tulips.png" alt="a small image with 4 8bit tulips alternating between orange and yellow">
+</div>
+
+    <footer class="footer-navbar">
+   <div class="footer-links">
+       <p><a href="index.html">Home</a></p>
+       <p> <a href="work.html">Work</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="goodies.html">Goodies</a></p>
+    </div>
     </footer>
 
     <script>
@@ -40,5 +46,7 @@
             menu.classList.toggle("show");
         }
     </script>
+
 </body>
 </html>
+

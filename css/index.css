@@ -12,7 +12,6 @@ body {
   .menu {
     display: flex;
     justify-content: flex-start;
-    align-items: left;
 }
 
 .menu a {

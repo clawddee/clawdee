@@ -68,13 +68,17 @@ text-align {
     max-width: 100%; /* Ensure the image doesn't exceed its original size */
 }
 
+.contact-form-container {
+    text-align: center;
+    margin:0 auto;
+    max-width: 500px;
+}
 
  /* Contact Form styles for Contact Page */
 input[type=text], select, textarea {
-  width: 10%; /* Full width */
-  padding: 5px; /* Some padding */ 
+  width: 50%; /* Full width */
+  padding: 10px; /* Some padding */ 
   border: 1px solid #014356; /* Yellow border */
-  border-radius: 1px; /* Rounded borders */
 }
 	
 /* Style the submit button with a specific background color etc */
@@ -133,6 +137,3 @@ input[type=submit]:hover {
     text-decoration: underline;
 }
 
-
-
-  

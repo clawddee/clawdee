@@ -43,6 +43,7 @@ body {
     }
 }
 
+
 section {
 
     text-align:center;
@@ -67,29 +68,16 @@ text-align {
     max-width: 100%; /* Ensure the image doesn't exceed its original size */
 }
 
-/* Small Screen Media Query*/
-@media screen and (max-width: 767px) {
-    .bottom-image {
-        width: 80%; /* Adjust the width of the image for smaller devices */
-    }
-}
-
-
-contact-form { 
-text-align:center; }
 
  /* Contact Form styles for Contact Page */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
+  width: 10%; /* Full width */
   padding: 5px; /* Some padding */ 
-  border: 3px solid #FFF99B; /* Yellow border */
+  border: 1px solid #014356; /* Yellow border */
   border-radius: 1px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  
 }
-
-/* Submit Button Styles for Contact Form */
+	
+/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #014356;
   color:#92E0F6 ;
@@ -104,15 +92,15 @@ input[type=submit]:hover {
   background-color: #FFF99B;
 }
 
-/*Background color and padding around for Contact form */
-.contact-form {
-  border-radius: 5px;
-  background-color: #92E0F6;
-  padding: 5px;
-  text-align: center;
-  width: 300px;
-  height:45vh;
-} 
+
+/* Small Screen Media Query*/
+@media screen and (max-width: 767px) {
+    .bottom-image {
+        width: 80%; /* Adjust the width of the image for smaller devices */
+    }
+}
+
+
 
 
 .footer {
@@ -144,3 +132,7 @@ input[type=submit]:hover {
 .footer-navbar a:hover {
     text-decoration: underline;
 }
+
+
+
+  

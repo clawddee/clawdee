@@ -181,7 +181,8 @@ input[type=submit]:hover {
 
 .footer-navbar {
     background-color: #92E0F6;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
     text-align: center;
     margin-top: auto;
     color: #014356;

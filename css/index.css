@@ -118,7 +118,12 @@ h2 {
 font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif
 }
 
-
+/*Pink coffee cup in contact page*/
+.side-image {
+	display: block;
+	magin: 15 auto;
+	max-width: 100%
+}
 
 text-align {
   max-width: 50%;

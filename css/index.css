@@ -169,32 +169,33 @@ input[type=submit]:hover {
 }
 
 
-.footer-navbar {
+.footer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    width: 100%; /* Make the navbar take the full width of the viewport */
-
 }
 
-.footer-navbar a {
+.footer-navbar {
     background-color: #92E0F6;
+    padding: 0;
+    text-align: center;
+    margin-top: auto;
     color: #014356;
     font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: center;
+    width: 100%; /* Make the navbar take the full width of the viewport */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.footer-navbar a {
+    color: #014356;
     text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
 }
 
 .footer-navbar a:hover {
     text-decoration: underline;
 }
-
-/* Small Screen Media Query*/
-@media screen and (max-width: 767px) {
-    .footer-navbar {
-        width: 100%;
-    }
-}
-

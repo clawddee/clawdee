@@ -172,28 +172,24 @@ input[type=submit]:hover {
 
 
 .footer {
+    background-color: #92E0F6;
     display: flex;
+    position: relative;
     align-items: center;
+    overflow-x: hidden; /* Hide horizontal overflow */
     justify-content: space-between;
     padding: 0;
     margin: 0;
-}
-
-.footer-navbar {
-    background-color: #92E0F6;
-    padding: 0;
-    text-align: center;
-    margin-top: auto;
-    color: #014356;
-    font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
     width: 100%; /* Make the navbar take the full width of the viewport */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    margin-top: auto;
 }
 
 .footer-navbar a {
     color: #014356;
+    font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
     text-decoration: none;
+    font-size: 20px;
     padding: 5px;
     margin: 0 5px;
 }

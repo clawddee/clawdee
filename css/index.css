@@ -118,12 +118,7 @@ h2 {
 font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif
 }
 
-/*Pink coffee cup in contact page*/
-.side-image {
-	display: block;
-	magin: 15 auto;
-	max-width: 100%
-}
+
 
 text-align {
   max-width: 50%;
@@ -143,11 +138,26 @@ text-align {
     max-width: 500px;
 }
 
+/*Pink coffee cup in contact page*/
+.side-image {
+	display: block;
+	magin: 15 auto;
+	max-width: 100%
+}
+
+.contact-form-container {
+	text-align: center;
+	margin:15px auto;
+	max-width:500px;
+}
+
  /* Contact Form styles for Contact Page */
 input[type=text], select, textarea {
-  width: 50%; /* Full width */
-  padding: 10px; /* Some padding */ 
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 	
+  margin-bottom: 10px;
   border: 1px solid #014356; /* Yellow border */
+  box-sizing: border-box;
 }
 	
 /*Submit button */
@@ -163,14 +173,6 @@ input[type=submit] {
 /*Hover color */
 input[type=submit]:hover {
   background-color: #FFF99B;
-}
-
-
-/* Small Screen Media Query*/
-@media screen and (max-width: 767px) {
-    .bottom-image {
-        width: 80%; /* Adjust the width of the image for smaller devices */
-    }
 }
 
 
@@ -203,4 +205,26 @@ input[type=submit]:hover {
 
 .footer-navbar a:hover {
     text-decoration: underline;
+}
+
+
+/* Small screen media query*/
+@media screen and (max-width: 767px) {
+    .bottom-image {
+        width: 80%; /* Adjust the width of the image for smaller devices */
+    }
+}
+
+
+/* Small screen media query */
+@media screen and (max-width: 767px) {
+    .side-image {
+        width: 80%; /* Adjust width of the image for smaller devices */
+    }
+    .contact-form-container {
+        max-width: 80%; /* Adjust maximum width of contact form container */
+    }
+    input[type=text], select, textarea {
+        width: 100%; /* Make inputs full width on smaller devices */
+    }
 }

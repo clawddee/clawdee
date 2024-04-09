@@ -172,7 +172,6 @@ input[type=submit]:hover {
 
 
 .footer {
-    background-color: #92E0F6;
     display: flex;
     position: relative;
     align-items: center;
@@ -185,6 +184,7 @@ input[type=submit]:hover {
 }
 
 .footer-navbar a {
+   background-color: #92E0F6;
     color: #014356;
     font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
     text-align: center;

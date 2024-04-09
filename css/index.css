@@ -169,7 +169,7 @@ input[type=submit]:hover {
 }
 
 
-.footer {
+.footer-navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +177,7 @@ input[type=submit]:hover {
     margin: 0;
 }
 
-.footer-navbar {
+.footer-navbar a {
     background-color: #92E0F6;
     padding: 0;
     text-align: center;

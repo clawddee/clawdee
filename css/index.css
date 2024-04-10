@@ -133,7 +133,7 @@ font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
 .bottom-image {
   display: block; /* Make the image a block-level element */
   margin: 0 auto; /* Center the image horizontally */
-  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  max-width: 50%; /* Ensure the image doesn't exceed its original size */
 }
 
 /* Small screen media query*/
@@ -157,7 +157,7 @@ font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
 
 .contact-form-container {
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 500px;
 }
 

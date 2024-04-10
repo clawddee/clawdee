@@ -212,14 +212,6 @@ background-color: #CEAF03;
 }
 
 
-/* Responsive styles */
-@media screen and (max-width: 767px) {
-  .footer-links {
-    max-width: none; /* Remove the max-width for smaller screens */
-    flex-direction: column; /* Stack the links vertically */
-    align-items: center; /* Center the links vertically */
-  }
-
   .footer-links a {
     margin: 5px 0; /* Adjust margin for smaller screens */
   }

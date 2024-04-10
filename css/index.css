@@ -139,7 +139,7 @@ font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
 /* Small screen media query*/
 @media screen and (max-width: 767px) {
   .bottom-image {
-      width: 80%; /* Adjust the width of the image for smaller devices */
+      width: 100%; /* Adjust the width of the image for smaller devices */
   }
 }
 

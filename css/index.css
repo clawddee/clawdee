@@ -1,230 +1,226 @@
 body {
-    background-color: #FFF99B;
-    margin: 0;
-    padding: 0;
-    font-family: Baskerville, Georgia, 'Times New Roman';
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  background-color: #FFF99B;
+  margin: 0;
+  padding: 0;
+  font-family: Baskerville, Georgia, 'Times New Roman';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-  /* Navigation styles */
-  .menu {
-    display: flex;
-    justify-content: flex-start;
+/* Navigation styles */
+.menu {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .menu a {
-    text-decoration: none;
-    color: #014356;
-    padding: 8px 12px;
-    margin:0 5px;
-    
+  font-size: medium;
+  text-decoration: none;
+  color: #014356;
+  padding: 8px 12px;
+  margin:0 5px;
+  
 }
 
 /* Hamburger icon */
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 /* Hamburger Menu Mobile */
 @media screen and (max-width: 767px) {
-    .menu {
-        flex-direction: column;
-        display: none;
-    }
+  .menu {
+      flex-direction: column;
+      display: none;
+  }
 
-    .menu.show {
-        display: flex;
-    }
+  .menu.show {
+      display: flex;
+  }
 
-    .menu-icon {
-        display: block;
-    }
+  .menu-icon {
+      display: block;
+  }
 }
 
+.menu a:hover {
+  color: #92E0F6; /* Change color when hovering over the link */
+}
 
 section {
 
-    text-align:center;
-    font-size: 25px;
-    color:#014356;
+  text-align:center;
+  font-size: 25px;
+  color:#014356;
 }
 
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+max-width: 1000px;
+position: relative;
+margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #CEAF03;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: #CEAF03;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+right: 0;
+border-radius: 3px 0 0 3px;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #014356
+background-color: #014356
 }
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.0s;
+animation-name: fade;
+animation-duration: 1.0s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
+}
+
+h1 {
+  font-family: Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
+  color:#CEAF03;
+  text-align: center;
 }
 
 
 h2 {
-font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif
+font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
-text-align {
-  max-width: 50%;
-  height: auto;
-}
 
 /*Tulips above Footer*/
 .bottom-image {
-    display: block; /* Make the image a block-level element */
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  display: block; /* Make the image a block-level element */
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
 }
 
-.contact-form-container {
-    text-align: center;
-    margin:0 auto;
-    max-width: 500px;
+/* Small screen media query*/
+@media screen and (max-width: 767px) {
+  .bottom-image {
+      width: 80%; /* Adjust the width of the image for smaller devices */
+  }
 }
+
+
 
 /*Pink coffee cup in contact page*/
 .side-image {
-	display: block;
-	margin: 15 auto;
-	max-width: 100%
-}
+  display: block;
+  float: left;
+  margin: 15px auto;
+  max-width: 100%
+  
+  }
+
 
 .contact-form-container {
-	text-align: center;
-	margin:15px auto;
-	max-width:500px;
+  text-align: center;
+  margin: 0px auto;
+  max-width: 500px;
 }
 
- /* Contact Form styles for Contact Page */
+
+/* Contact Form styles for Contact Page */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 10px; /* Some padding */ 	
-  margin-bottom: 10px;
-  border: 1px solid #014356; /* Yellow border */
-  box-sizing: border-box;
+width: 100%; /* Full width */
+padding: 10px; /* Some padding */ 	
+margin-bottom: 10px;
+border: 1px solid #014356; /* Yellow border */
+box-sizing: border-box;
 }
-	
+
 /*Submit button */
 input[type=submit] {
-  background-color: #014356;
-  color:#92E0F6 ;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+background-color: #014356;
+color:#92E0F6 ;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
 /*Hover color */
 input[type=submit]:hover {
-  background-color: #FFF99B;
+background-color: #CEAF03;
 }
 
 
-.footer-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin:0;
+.footer {
+  color: #014356;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.footer-navbar a {
-    background-color: #92E0F6;
-    padding: 0;
-    text-align: center;
-    margin-top: auto;
-    color: #014356;
-    font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    width: 100%; /* Make the navbar take the full width of the viewport */
-    overflow-x: hidden; /* Hide horizontal overflow */
+.footer-links {
+  max-width: 100px;
+  margin: 0 auto;
+  display: flex; /* Move this line here to apply flexbox to the container */
+  justify-content: center; /* Center the links horizontally */
+  font-size: 20px; /* Add this line to adjust the font size */
 }
 
-.footer-navbar a:font {
-    color: #014356;
-    text-decoration: none;
-    padding: 5px;
-    margin: 0 5px;
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #014356;
 }
 
-.footer-navbar a:hover {
-    text-decoration: underline;
+.footer-links a:hover {
+  color: #92E0F6; /* Change color when hovering over the link */
 }
 
 
-/* Small screen media query*/
+/* Responsive styles */
 @media screen and (max-width: 767px) {
-    .bottom-image {
-        width: 80%; /* Adjust the width of the image for smaller devices */
-    }
-}
+  .footer-links {
+    max-width: none; /* Remove the max-width for smaller screens */
+    flex-direction: column; /* Stack the links vertically */
+    align-items: center; /* Center the links vertically */
+  }
 
-
-/* Small screen media query */
-@media screen and (max-width: 767px) {
-    .side-image {
-        width: 80%; /* Adjust width of the image for smaller devices */
-    }
-    .contact-form-container {
-        max-width: 80%; /* Adjust maximum width of contact form container */
-    }
-    input[type=text], select, textarea {
-        width: 100%; /* Make inputs full width on smaller devices */
-    }
+  .footer-links a {
+    margin: 5px 0; /* Adjust margin for smaller screens */
+  }
 }

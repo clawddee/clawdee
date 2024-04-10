@@ -43,9 +43,10 @@ body {
     }
 }
 
-contact-form {
+contact-form-container {
 text-align: center;
 }
+
 
 section {
 
@@ -54,11 +55,18 @@ section {
     color:#014356;
 }
 
-
+h1{
+	font-family: Luminari, Baskerville, Georgia, 'Times New Roman', serif;
+}
 
 h2 {
-font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif
+font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
 }
+
+h3{
+	font-family: Baskerville, Georgia, 'Times New Roman', Times, serif;
+	color: #CEAF03;
+	text-align: center;
 
 
 text-align {
@@ -78,8 +86,6 @@ text-align {
 input[type=text], select, textarea {
   width: 10%; /* Full width */
   padding: 5px; /* Some padding */ 
-  border: 1px solid #014356; /* Yellow border */
-  border-radius: 1px; /* Rounded borders */
 }
 	
 /* Style the submit button with a specific background color etc */
@@ -94,7 +100,7 @@ input[type=submit] {
 
 /*Hover color */
 input[type=submit]:hover {
-  background-color: #FFF99B;
+  background-color: #CEAF03;
 }
 
 

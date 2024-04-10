@@ -109,9 +109,9 @@ font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
 
 /*Tulips above Footer*/
 .bottom-image {
-  display: block; /* Make the image a block-level element */
   margin: 0 auto; /* Center the image horizontally */
   max-width: 50%; /* Ensure the image doesn't exceed its original size */
+  overflow-x: hidden;
 }
 
 /* Small screen media query*/

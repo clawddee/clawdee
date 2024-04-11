@@ -56,6 +56,27 @@ section {
 }
 
 
+
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust space between images */
+}
+
+.image-item {
+  flex: 1 1 150px; /* Grow to fill space, but not smaller than 150px */
+}
+
+.image-item img {
+  width: 100%; /* Make images responsive */
+  height: auto;
+  display: block; /* Remove default spacing */
+}
+
+
+
+
 .slideshow-container {
   position: relative;
   max-width: 100%;

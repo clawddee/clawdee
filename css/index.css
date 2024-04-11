@@ -2,7 +2,7 @@ body {
   background-color: #FFF99B;
   margin: 0;
   padding: 0;
-  font-family: Baskerville, Georgia, 'Times New Roman';
+  font-family: Courier New, monospace;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -123,14 +123,14 @@ section {
 
 
 h1 {
-  font-family: Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
+  font-family: Courier New, monospace;
   color:#CEAF03;
   text-align: center;
 }
 
 
 h2 {
-font-family:Luminari, Baskerville, Georgia, 'Times New Roman', Times, serif;
+font-family:Courier New, monospace;
 }
 
 

@@ -25,3 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
  
   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+    document.getElementById('popup').style.display = 'flex'; 
+});
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none'; 
+}

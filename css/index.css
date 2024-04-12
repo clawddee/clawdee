@@ -162,6 +162,7 @@ h1 {
 {
 display: block;
 float: center;
+  magin: 15px auto;
 max-width: 100%;
 }
 

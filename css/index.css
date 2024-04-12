@@ -61,17 +61,17 @@ section {
 .image-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Adjust space between images */
+  gap: 10px; 
 }
 
 .image-item {
-  flex: 1 1 150px; /* Grow to fill space, but not smaller than 150px */
+  flex: 1 1 150px; 
 }
 
 .image-item img {
-  width: 100%; /* Make images responsive */
+  width: 100%; 
   height: auto;
-  display: block; /* Remove default spacing */
+  display: block; 
 }
 
 

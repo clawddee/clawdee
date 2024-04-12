@@ -59,17 +59,28 @@ section {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
   grid-gap: 10px;
 }
 
 .image-item img {
-  width: 100%; 
-  height: auto; 
-  display: block; 
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+/* Media Queries */
+@media (min-width: 600px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  }
+}
 
+@media (min-width: 900px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  }
+}
 
 
 .slideshow-container {

@@ -157,6 +157,15 @@ h1 {
   
   }
 
+/*Cat image in about page */
+.cat-image
+{
+display: block;
+float: center;
+max-width: 100%;
+}
+
+
 
 .contact-form-container {
   text-align: center;

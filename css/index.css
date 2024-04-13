@@ -201,7 +201,32 @@ input[type=submit].gradient-button {
   display: block; 
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); /* Creates columns that fit content */
+  gap: 10px; /* Consistent gap */
+  padding: 10px; /* Padding around the grid */
+}
 
+.image-item {
+  display: flex;
+  justify-content: center; /* Center-aligns image within the grid cell */
+  align-items: center;
+  padding: 5px;
+}
+
+.image-item img {
+  max-width: 100%; /* Prevents image from exceeding its natural size */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes extra space/margin below images */
+}
+
+
+@media (min-width: 1024px) {
+  .image-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* More columns for larger screens */
+  }
+}
 
 .footer {
   color: #014356;

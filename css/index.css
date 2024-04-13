@@ -203,28 +203,28 @@ input[type=submit].gradient-button {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); /* Creates columns that fit content */
-  gap: 10px; /* Consistent gap */
-  padding: 10px; /* Padding around the grid */
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); 
+  gap: 10px; 
+  padding: 10px; 
 }
 
 .image-item {
   display: flex;
-  justify-content: center; /* Center-aligns image within the grid cell */
+  justify-content: center; 
   align-items: center;
   padding: 5px;
 }
 
 .image-item img {
-  max-width: 100%; /* Prevents image from exceeding its natural size */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Removes extra space/margin below images */
+  max-width: 100%; 
+  height: auto; 
+  display: block;
 }
 
 
 @media (min-width: 1024px) {
   .image-grid {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* More columns for larger screens */
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
   }
 }
 
@@ -253,7 +253,7 @@ input[type=submit].gradient-button {
 }
 
 
-/* Responsive styles */
+
 @media screen and (max-width: 767px) {
   .footer-links {
     max-width: none; 

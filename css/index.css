@@ -107,6 +107,12 @@ h1 {
   text-align: center;
 }
 
+h2{
+  font-family: 'Courier New', monospace;
+  color: #CEAF03;
+  text-align: center;
+}
+
 
 /*Tulips above Footer*/
 .bottom-image {

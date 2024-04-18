@@ -11,7 +11,7 @@ body {
 /* Navigation styles */
 .menu {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .menu a {
@@ -251,6 +251,7 @@ input[type=submit].gradient-button {
 
 .footer-links a {
   margin: 0 10px;
+  padding: 8px 12px;
   text-decoration: none;
   color: #014356;
 }

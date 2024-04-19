@@ -104,7 +104,7 @@ section {
 
 h1 {
   font-family: 'Courier New', monospace;
-  color:#0A8EB4;
+  color:#309A06;
   text-align: center;
 }
 
@@ -176,7 +176,7 @@ box-sizing: border-box;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: #92E0F6; 
+  color: #309A06; 
   background-size: 200% auto;
   transition: 0.5s;
   border-radius: 8px; 

@@ -143,6 +143,15 @@ h3{
   
   }
 
+/*Jam image on goodies page */
+.jam {
+  display: block;
+  float: left;
+  margin: 15px auto;
+  max-width: 100%
+  
+  }
+
 /*Cat image in about page */
 .cat-image
 {

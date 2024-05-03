@@ -140,7 +140,7 @@ h2{
 .side-image {
   display: block;
   float: left;
-  margin: 15px auto;
+  margin: 10px auto;
   max-width: 100%
   
   }
@@ -180,8 +180,8 @@ max-width: 100%;
 }
 
 input[type=text], select, textarea {
-width: 100%; /* Full width */
-padding: 10px; /* Some padding */ 	
+width: 100%; 
+padding: 10px; 
 margin-bottom: 10px;
 border: 1px solid #014356; 
 box-sizing: border-box;
@@ -226,6 +226,8 @@ input[type=submit].gradient-button {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  justify-content:center;
+  align-items:center;
 }
 
 
@@ -233,8 +235,6 @@ input[type=submit].gradient-button {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-  justify-content:center;
-  align-items:center;
 }
 
 .column img {

@@ -160,12 +160,13 @@ h2{
   flex: 100%;
   max-width: 25%;
   padding: 0 4px;
+  justify-content:center;
+  align-items:center;
 }
 
 .cat-image {
   margin-top: 8px;
   margin-bottom: 8px;
-  vertical-align: middle;
   width: 100%;
 }
 

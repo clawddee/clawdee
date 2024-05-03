@@ -167,7 +167,7 @@ max-width: 100%;
 @media screen and (max-width: 600px) {
   .cat-image {
     flex: 100%;
-    max-width: 60%;
+    width: 60%;
   }
 }
 

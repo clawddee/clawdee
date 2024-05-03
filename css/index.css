@@ -150,7 +150,7 @@ h2{
 .jam {
   display: block;
   float: left;
-  margin: 5px auto;
+  margin: 1px auto;
   max-width: 100%
   
   }
@@ -159,8 +159,8 @@ h2{
 .cat-image
 {
 display: block;
-float: left;
-margin: 8px auto;
+margin-left: auto;
+margin-right: auto;
 max-width: 100%;
 }
 

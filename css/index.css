@@ -156,18 +156,18 @@ h2{
   }
 
 /*Cat image in about page */
-.cat-image
-{
+.cat-image {
+display: block;
 display: flex;
 justify-content:center;
 align-items:center;
 max-width: 90%;
 }
 
-/* Small screen media query*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .cat-image {
-      width: 60%; 
+    flex: 100%;
+    max-width: 100%;
   }
 }
 

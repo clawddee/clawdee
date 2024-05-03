@@ -155,19 +155,27 @@ h2{
   
   }
 
-/*Cat image in about page */
+
 .cat-image {
- max-width: 100%;
- height: auto;
- display: left;
-margin: 1px auto; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-@media screen and (max-width: 600px) {
-  .cat-image {
-    width: 60%;
+.cat-image {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
+
 
 
 /* Contact Form styles for Contact Page */

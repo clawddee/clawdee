@@ -157,16 +157,16 @@ h2{
 
 /*Cat image in about page */
 .cat-image {
-display: flex;
-margin: 5px auto;
-justify-content:center;
-align-items:center;
-max-width: 100%;
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 @media screen and (max-width: 600px) {
   .cat-image {
-    flex: 100%;
     width: 60%;
   }
 }

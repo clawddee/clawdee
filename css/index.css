@@ -159,9 +159,8 @@ h2{
 .cat-image {
  max-width: 100%;
  height: auto;
- display: flex;
- justify-content: center;
- align-items: center;
+ display: left;
+margin: 1px auto; 
 }
 
 @media screen and (max-width: 600px) {

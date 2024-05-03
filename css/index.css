@@ -157,7 +157,7 @@ h2{
 
 
 .cat-image {
-  flex: 25%;
+  flex: 100%;
   max-width: 25%;
   padding: 0 4px;
 }

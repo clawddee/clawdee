@@ -150,10 +150,12 @@ h2{
 .jam {
   display: block;
   float: left;
-  margin: 1px auto;
+  margin: 10px auto;
   max-width: 100%
   
   }
+
+/*Cat image on About Page */
 .cat-image {
   display: block; 
   margin: 0 auto; 

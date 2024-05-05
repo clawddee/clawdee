@@ -138,22 +138,24 @@ h2{
 
 /*Pink coffee cup in contact page*/
 .side-image {
-  display: block;
-  float: left;
-  margin: 10px auto;
-  max-width: 100%
-  
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;  
+  height: auto; 
+  padding: 10px; 
+}
 
 
 /*Jam image on goodies page */
 .jam {
-  display: block;
-  float: left;
-  margin: 10px auto;
-  max-width: 100%
-  
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;  
+  height: auto;
+  padding: 10px;
+}
 
 /*Cat image on About Page */
 .cat-image {

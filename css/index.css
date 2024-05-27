@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF99B;
+  background-color: #7ED2B4;
   margin: 0;
   padding: 0;
   font-family: 'Courier New', monospace;
@@ -12,7 +12,7 @@ section {
 
   text-align:center;
   font-size: 15px;
-  color:#014356;
+  color:#FFFFFF;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 
 h2{
   font-family: 'Courier New', monospace;
-  color: #FF7900;
+  color: #FFF8BB;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ h2{
 .menu a {
   font-size: medium;
   text-decoration: none;
-  color: #014356;
+  color: #FFF8BB;
   padding: 8px 12px;
   margin:0 5px;
   

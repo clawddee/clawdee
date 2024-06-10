@@ -1,5 +1,5 @@
 body {
-  background-color: #b8e6d6;
+  background-color: #F4D8E7;
   margin: 0;
   padding: 0;
   font-family:  monospace;
@@ -18,13 +18,13 @@ section {
 
 h1 {
   font-family:  monospace;
-  color:#309A06;
+  color:#00600A;
   text-align: center;
 }
 
 h2{
   font-family:  monospace;
-  color: coral;
+  color: #00600A;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ h2{
 .menu a {
   font-size: medium;
   text-decoration: none;
-  color: coral;
+  color: #00600A;
   padding: 8px 12px;
   margin:0 5px;
   
@@ -67,7 +67,7 @@ h2{
 }
 
 .menu a:hover {
-  color: #FF7900;
+  color: #FB86C4;
 }
 
 
@@ -289,7 +289,7 @@ input[type=submit].gradient-button {
 }
 
 .footer-links a:hover {
-  color: #FFF8BB;
+  color: #FB86C4;
 }
 
 

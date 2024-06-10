@@ -2,7 +2,7 @@ body {
   background-color: #b8e6d6;
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', monospace;
+  font-family:  monospace;
   font-size: 15px;
   display: flex;
   flex-direction: column;
@@ -17,13 +17,13 @@ section {
 }
 
 h1 {
-  font-family: 'Courier New', monospace;
+  font-family:  monospace;
   color:#309A06;
   text-align: center;
 }
 
 h2{
-  font-family: 'Courier New', monospace;
+  font-family:  monospace;
   color: coral;
   text-align: center;
 }

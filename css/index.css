@@ -23,7 +23,7 @@ h1 {
 
 h2{
   font-family: 'Courier New', monospace;
-  color: #FFF8BB;
+  color: coral;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ h2{
 .menu a {
   font-size: medium;
   text-decoration: none;
-  color: #FFF8BB;
+  color: coral;
   padding: 8px 12px;
   margin:0 5px;
   

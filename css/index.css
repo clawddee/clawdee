@@ -198,7 +198,7 @@ box-sizing: border-box;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #309A06; 
   background-size: 200% auto;
@@ -268,7 +268,7 @@ input[type=submit].gradient-button {
 
 
 .footer {
-  color: #014356;
+  color: coral;
   padding: 20px 0;
   text-align: center;
 }
@@ -285,7 +285,7 @@ input[type=submit].gradient-button {
   margin: 0 10px;
   padding: 5px 7px;
   text-decoration: none;
-  color: #FFF8BB;
+  color: coral;
 }
 
 .footer-links a:hover {

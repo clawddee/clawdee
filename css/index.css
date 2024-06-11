@@ -9,6 +9,26 @@ body {
 }
 
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-container img {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+
+.header-container h1 {
+  font-family: monospace;
+  color: #00600A;
+  margin: 0;
+}
+
 
 section {
 
@@ -22,18 +42,6 @@ h2{
   font-family:  monospace;
   color: #00600A;
   text-align: center;
-}
-
-.contact-me {
-   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.contact-me img{
-height: 100px;
-  width: 100px;
-  margin-right: 20px;
 }
 
 

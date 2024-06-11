@@ -163,15 +163,6 @@ h2{
 }
 
 
-/*Jam image on goodies page */
-.jam {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
-  justify-content: center;  
-  height: auto;
-  padding: 10px;
-}
 
 /*Cat image on About Page */
 .cat-image {

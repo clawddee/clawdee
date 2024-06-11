@@ -195,7 +195,7 @@ h2{
   display: block; 
   margin: 0 auto; 
   max-width: 100%; 
-  text-align: center; 
+  text-align: left; 
 }
 
 .cat-image img {

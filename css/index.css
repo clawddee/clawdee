@@ -211,17 +211,6 @@ h2{
 }
 
 
- body {
-            font-family: monospace;
-            background-color: #04E01A;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
         .contact-form {
             background-color: #fff;
             padding: 20px;

@@ -211,53 +211,49 @@ h2{
 }
 
 
-/* Contact Form styles for Contact Page */
-.contact-form-container {
-  text-align: center;
-  margin: 0px auto;
-  max-width: 500px;
-}
+ font-family: monospace;
+            background-color: #04E01A;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-input[type=text], select, textarea {
-width: 100%; 
-padding: 10px; 
-margin-bottom: 10px;
-border: 1px solid #014356; 
-box-sizing: border-box;
-}
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
 
-.gradient-button {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  color: #309A06; 
-  background-size: 200% auto;
-  transition: 0.5s;
-  border-radius: 8px; 
-  background-image: linear-gradient(to right, #014356 0%, #CEAF03 51%, #FFF99B 100%);
-  animation: GradientShift 3s linear infinite;
-}
+        .contact-form h2 {
+            margin-top: 0;
+        }
 
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
+        .contact-form button {
+            background-color: #04E01A;
+            color: #00600A;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-@keyframes GradientShift {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-
-.gradient-button:hover {
-  background-position: right center;
-}
-
-
-input[type=submit].gradient-button {
-  width: auto;
-  margin: auto; 
-  display: block; 
-}
+        .contact-form button:hover {
+            background-color: #FB86C4;
+        }
 
 
 /*Image grid for Work page */

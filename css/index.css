@@ -43,6 +43,10 @@ h2{
   text-align: center;
 }
 
+.contact-me {
+ text-align: right; 
+}
+
 
 /* Navigation styles */
 .menu {

@@ -131,6 +131,32 @@ h2{
   to {opacity: 1}
 }
 
+/*Button styles for links page*/
+   .styled-button {
+            background-color: #FB86C4; 
+            border: none; 
+            color: #00600A; 
+            padding: 15px 32px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: block; 
+            font-size: 16px; 
+            margin: 10px 0; 
+            cursor: pointer; 
+            border-radius: 12px; 
+            font-family: monospace; 
+        }
+
+        .styled-button:hover {
+            background-color: #04E01A; 
+        }
+
+        
+        .button-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
 
 /*Tulips above Footer*/

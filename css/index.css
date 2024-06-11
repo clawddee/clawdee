@@ -8,25 +8,6 @@ body {
   min-height: 100vh;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.header-container img {
-  height: 100px;
-  width: 100px;
-  margin-right: 20px;
-}
-
-
-.header-container h1 {
-  font-family: monospace;
-  color: #00600A;
-  margin: 0;
-}
 
 
 section {
@@ -207,7 +188,7 @@ height: 100px;
   display: block; 
   margin: 0 auto; 
   max-width: 100%; 
-  text-align: left; 
+  text-align: center; 
 }
 
 .cat-image img {

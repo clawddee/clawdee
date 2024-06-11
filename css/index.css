@@ -29,6 +29,32 @@ body {
   margin: 0;
 }
 
+.contact-me {
+  display: flex;
+  padding-left:20px;
+  
+}
+
+/*Cat image on About Page */
+.cat-image {
+  display: flex; 
+  margin: 0 auto; 
+  max-width: 100%; 
+  align-item: center; 
+  justify-content: center;
+}
+
+.cat-image img {
+  width: 100%; 
+  height: auto; 
+  max-width: 600px; 
+}
+
+@media screen and (max-width: 767px) {
+  .cat-image img {
+    max-width: 100%; /* Allows the image to resize according to the screen size */
+  }
+}
 
 section {
 
@@ -189,27 +215,6 @@ h2{
   padding: 10px; 
 }
 
-
-
-/*Cat image on About Page */
-.cat-image {
-  display: block; 
-  margin: 0 auto; 
-  max-width: 100%; 
-  text-align: center; 
-}
-
-.cat-image img {
-  width: 100%; 
-  height: auto; 
-  max-width: 600px; 
-}
-
-@media screen and (max-width: 767px) {
-  .cat-image img {
-    max-width: 100%; /* Allows the image to resize according to the screen size */
-  }
-}
 
 
 /*Image grid for Work page */

@@ -34,7 +34,19 @@
 
      <section> 
         <h2>Links</h2>
- My github, wordpress blog and others are here in this section. </section>
+ My github, wordpress blog and others are here in this section.
+     
+<div class="button-column">
+    <button class="styled-button" onclick="goToWebsite('https://github.com/clawddee')">Github</button>
+    <button class="styled-button" onclick="goToWebsite('https://www.freecodecamp.org/clawdee')">freeCodeCamp</button>
+    <button class="styled-button" onclick="goToWebsite('https://www.pixilart.com/clawddee')">Pixilart</button>
+    <button class="styled-button" onclick="goToWebsite('https://www.frontendmentor.io/profile/clawddee')">Frontend Mentor</button>
+
+</div>
+
+
+         
+     </section>
 
 
 
@@ -57,6 +69,12 @@
             menu.classList.toggle("show");
         }
     </script>
+
+   <script>
+function goToWebsite(url) {
+    window.location.href = url;
+}
+</script>
 
 
 

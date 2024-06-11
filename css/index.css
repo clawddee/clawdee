@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family:  monospace;
-  font-size: 15px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -19,7 +18,7 @@ section {
 .birb {
 text-align:center;
 height: 100px;
-  width: 100px;
+  width: 10b0px;
 }
 
 h1 {
@@ -274,7 +273,7 @@ input[type=submit].gradient-button {
 
 
 .footer {
-  color: coral;
+  color: #00600A;
   padding: 20px 0;
   text-align: center;
 }
@@ -291,7 +290,7 @@ input[type=submit].gradient-button {
   margin: 0 10px;
   padding: 5px 7px;
   text-decoration: none;
-  color: coral;
+  color: #00600A;
 }
 
 .footer-links a:hover {

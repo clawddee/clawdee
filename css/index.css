@@ -30,18 +30,16 @@ body {
 }
 
 .contact-me {
-  display: flex;
-  padding-left:20px;
-  
+ margin: 20px;
+text-align: center;
 }
 
 /*Cat image on About Page */
 .cat-image {
-  display: flex; 
-  margin: 0 auto; 
+  margin: 5px; 
   max-width: 100%; 
-  align-item: center; 
-  justify-content: center;
+  float: left;
+  margin: 5px;
 }
 
 .cat-image img {

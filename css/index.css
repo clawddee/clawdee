@@ -1,7 +1,10 @@
 body {
   background-color: #F4D8E7;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:600px;
+  margin-right: 600px;
+  padding: 100px;
   font-family:  monospace;
   display: flex;
   flex-direction: column;

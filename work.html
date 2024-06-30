@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Clawdee </title>
-</head>
-<body>
-   <div class="header-container">
-    <img class="birb" src="images/robinbirb.png" alt="8bit image of a robin bird">
-  <h1> Clawdee</h1>
-    </div>
+    <title>Clawdee</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="javascript/index.js"></script> 
+        </head>
+
+ <body>
+        <!--Logo and H1-->
+    <div class="header-container"> 
+<img class="birb" src="images/robinbirb.png" alt="8bit image of a robin bird">
+    <h1> Clawdee</h1>
+</div>
+
     <!-- Hamburger menu icon -->
     <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-    
-    <!-- Navigation menu -->
-    <nav class="menu" id="menu">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="art.html">Art</a>
-        <a href="about.html">About</a>
-        
-        <a href="links.html">Links</a>
-    </nav>
-    
-   <section>
-        <h2> Work </h2>
-  
- Here are some examples of my work, feel free to take a look around. If you are interested in requesting work, please head to the contact page to submit a form. </section>
 
+
+<!--Navigation-->
+<nav class="navbar" id="navbar"><div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="work.html">Work</a>
+    <a href="art.html">Art</a>
+    <a href="about.html">About</a>
+    <a href="links.html">Links</a>
+    </div>
+</nav>
+
+
+<!--Main Text and H2-->
+<div class="main"><h2> Work </h2>
+
+ Here are some examples of my work, feel free to take a look around. If you are interested 
+ in requesting work, please head to the about page to send in an email!
+</div>
     
      <div class="row">
         <div class="column"><img src="images/mindmap.png" alt="mindmap for app created">
@@ -39,7 +46,7 @@
         </div>
         </div>
     
-
+        <!--Footer-->
        <div class="bottom-image"> <img src="images/tulips.png" alt="a small image with 4 8bit tulips alternating between orange and yellow">
 </div>
 
@@ -50,16 +57,17 @@
        <a href="work.html">Work</a>
         <a href="art.html">Art</a>
         <a href="about.html">About</a>
-      
        <a href="links.html">Links</a>
     </div>
     </footer>
 
+
+    <!--Scripts-->
     <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            menu.classList.toggle("show");
-        }
+           function toggleMenu() {
+        var navbar = document.getElementById("navbar");
+        navbar.classList.toggle("show");
+    }
     </script>
 
 </body>

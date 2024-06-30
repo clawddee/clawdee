@@ -1,39 +1,40 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="javascript/index.js"></script> 
     <title>Clawdee</title>
-</head>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="javascript/index.js"></script> 
+        </head>
 
 <body>
     
-   <div class="header-container">
+ <!--Logo and H1-->
+<div class="header-container"> 
     <img class="birb" src="images/robinbirb.png" alt="8bit image of a robin bird">
-  <h1> Clawdee</h1>
-    </div>
-    <!-- Hamburger menu icon -->
-    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <h1> Clawdee</h1>
+</div>
 
+   <!-- Hamburger menu icon -->
+   <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+   
     
-        <!-- Navigation menu -->
-    <nav class="menu" id="menu">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="art.html">Art</a>
-        <a href="about.html">About</a>
-      
-        <a href="links.html">Links</a>
-    </nav>
+ <!--Navigation-->
+<nav class="navbar" id="navbar"><div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="work.html">Work</a>
+    <a href="art.html">Art</a>
+    <a href="about.html">About</a>
+    <a href="links.html">Links</a>
+    </div>
+</nav>
+<!--Main Text and H2-->
+<div class="main">
+        <h2>Links</h2>
+    </div>
 
-     <section> 
-        <h2>Links</h2></section>
-
-     
 <div class="button-column">
     <button class="styled-button" onclick="goToWebsite('https://github.com/clawddee')">Github</button>
     <button class="styled-button" onclick="goToWebsite('https://www.freecodecamp.org/clawdee')">freeCodeCamp</button>
@@ -58,16 +59,17 @@
        <a href="work.html">Work</a>
         <a href="art.html">Art</a>
         <a href="about.html">About</a>
-        
        <a href="links.html">Links</a>
     </div>
     </footer>
 
+
+<!--Scripts-->
     <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            menu.classList.toggle("show");
-        }
+         function toggleMenu() {
+        var navbar = document.getElementById("navbar");
+        navbar.classList.toggle("show");
+    }
     </script>
 
    <script>

@@ -42,6 +42,7 @@ body {
 .main {
     text-align: center;
     margins: auto;
+    padding: 700px;
 }
 
 h2 {

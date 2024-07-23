@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clawdee</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="javascript/index.js"></script> 
+        </head>
+
+<body>
+    <!--Logo and H1-->
+<div class="header-container"> 
+    <img class="birb" src="images/robinbirb.png" alt="8bit image of a robin bird" >
+    <h1> Clawdee</h1>
+</div>
+
+   <!-- Hamburger menu icon -->
+   <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+   
+<!--Navigation-->
+<nav class="navbar" id="navbar"><div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="art.html">Art</a>
+        <a href="about.html">About</a>
+        <a href="links.html">Links</a>
+        </div>
+</nav>
+
+<!--Main Text and H2-->
+
+<div class="main">
+    <h2> Timeless Outdoor Solutions </h2>
+    A landscape company wanted a nice logo and refresh on their website that would be accessible for their older customers <br>
+    and be responsive for mobile.<br>
+
+    First, we start with a simple and fresh design that would be respoinsive and <br>
+    accessible for their user base.<br>
+
+<img src="images/styleguideTOS.png"><br>
+
+
+Afterwards, we reworked their logo. We kept the same idea of the tree and flower,<br>
+however we made the image a vector and updated it.<br>
+They also wanted a CTA button that would catch the users attention<br>
+
+ <img src="images/envelope.png" ><br>
+
+
+
+</div>
+
+
+
+
+
+<!--Footer-->
+<div class="bottom-image"> <img src="images/tulips.png" alt="a small image with 4 8bit tulips alternating between orange and yellow">
+</div>
+
+
+    <footer class="footer-navbar">
+   <div class="footer-links">
+       <a href="index.html">Home</a>
+       <a href="work.html">Work</a>
+        <a href="art.html">Art</a>
+        <a href="about.html">About</a>
+       <a href="links.html">Links</a>
+    </div>
+    </footer>
+
+
+<!--Scripts-->
+<script>
+    function toggleMenu() {
+        var navbar = document.getElementById("navbar");
+        navbar.classList.toggle("show");
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      window.plusSlides = function(n) {
+          showSlides(slideIndex += n);
+      }
+
+      function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          slides[slideIndex-1].style.display = "block";  
+      }
+  });
+
+</script>
+
+
+</body>
+</html>

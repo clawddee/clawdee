@@ -8,14 +8,13 @@
 
 
 .column {
-  flex: 50%;
-  max-width: 50%;
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 
 .column img {
   margin-top: 8px;
-  margin-bottom: 8px;
   vertical-align: middle;
   width: 100%;
 }
@@ -99,4 +98,3 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-

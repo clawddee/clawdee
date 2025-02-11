@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clawdee</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="javascript/index.js"></script> 
+        </head>
+
+<body>
+    
+ <!--Logo and H1-->
+<div class="header-container"> 
+    <img class="birb" src="images/robinbirb.png" alt="8bit image of a robin bird">
+    <h1> Clawdee</h1>
+</div>
+
+   <!-- Hamburger menu icon -->
+   <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+   
+    
+ <!--Navigation-->
+<nav class="navbar" id="navbar"><div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="work.html">Work</a>
+    <a href="art.html">Art</a>
+    <a href="about.html">About</a>
+    <a href="links.html">Links</a>
+    </div>
+</nav>
+<!--Main Text and H2-->
+<div class="main">
+        <h2>Links</h2>
+    </div>
+
+<div class="button-column">
+    <button class="styled-button" onclick="goToWebsite('https://github.com/clawddee')">Github</button>
+    <button class="styled-button" onclick="goToWebsite('https://www.freecodecamp.org/clawdee')">freeCodeCamp</button>
+    <button class="styled-button" onclick="goToWebsite('https://www.pixilart.com/clawddee')">Pixilart</button>
+    <button class="styled-button" onclick="goToWebsite('https://www.frontendmentor.io/profile/clawddee')">Frontend Mentor</button>
+    <button class="styled-button" onclick="goToWebsite('https://clawdeeart.wordpress.com/')">Wordpress</button>
+
+</div>
+
+
+         
+     
+
+
+       <div class="bottom-image"> <img src="images/tulips.png" alt="a small image with 4 8bit tulips alternating between orange and yellow">
+</div>
+
+
+    <footer class="footer-navbar">
+   <div class="footer-links">
+       <a href="index.html">Home</a>
+       <a href="work.html">Work</a>
+        <a href="art.html">Art</a>
+        <a href="about.html">About</a>
+       <a href="links.html">Links</a>
+    </div>
+    </footer>
+
+
+<!--Scripts-->
+    <script>
+         function toggleMenu() {
+        var navbar = document.getElementById("navbar");
+        navbar.classList.toggle("show");
+    }
+    </script>
+
+   <script>
+function goToWebsite(url) {
+    window.location.href = url;
+}
+</script>
+
+
+
+</body>
+</html>
